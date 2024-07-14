@@ -22,9 +22,20 @@ to stop
 Ctrl + c
 
 to delete 
-
 docker compose down 
 
-to rebuild 
+to run 
+docker compose up
 
+to rebuild 
 docker compose up --build
+
+
+see al compose running files 
+docker compose ps -a 
+
+view all docker volumes
+docker volume list
+
+delete an volume
+docker volume rm name 
